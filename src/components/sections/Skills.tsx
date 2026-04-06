@@ -5,15 +5,25 @@ import {
   SiReact, SiJavascript, SiTailwindcss, SiHtml5, SiCss3, 
   SiBootstrap, SiGit, SiGithub, SiPhp, SiMysql,
   SiAdobephotoshop, SiCanva,
-  SiNextdotjs,
-  SiFigma
+  SiMongodb,
+  SiExpress,
+  SiNodedotjs
 } from 'react-icons/si';
 import { TbFileSpreadsheet } from 'react-icons/tb';
 import { VscCode } from 'react-icons/vsc';
-import { FiMonitor, FiCode } from 'react-icons/fi';
+<<<<<<< HEAD
+import { FiMonitor } from 'react-icons/fi';
+import {
+  containerVariants,
+  itemVariants,
+  scrollSlideInUpVariants,
+} from '@/lib/animations';
 
 const skills = [
+  { name: 'MongoDB', percentage: 75, color: 'from-green-500 to-emerald-600' },
+  { name: 'Express.js', percentage: 78, color: 'from-slate-500 to-slate-700' },
   { name: 'ReactJS', percentage: 90, color: 'from-cyan-400 to-cyan-600' },
+  { name: 'Node.js', percentage: 80, color: 'from-lime-500 to-green-700' },
   { name: 'JavaScript', percentage: 85, color: 'from-yellow-400 to-yellow-600' },
   { name: 'Tailwind CSS', percentage: 95, color: 'from-teal-400 to-teal-600' },
   { name: 'HTML/CSS', percentage: 90, color: 'from-orange-400 to-orange-600' },
@@ -22,10 +32,13 @@ const skills = [
 ];
 
 const technologies = [
+  { icon: SiReact, name: 'ReactJS', color: '#61DAFB' },
+  { icon: SiNodedotjs, name: 'Node.js', color: '#339933' },
+  { icon: SiExpress, name: 'Express.js', color: '#6B7280' },
+  { icon: SiMongodb, name: 'MongoDB', color: '#47A248' },
+  { icon: SiJavascript, name: 'JavaScript', color: '#F7DF1E' },
   { icon: SiHtml5, name: 'HTML5', color: '#E34F26' },
   { icon: SiCss3, name: 'CSS3', color: '#1572B6' },
-  { icon: SiJavascript, name: 'JavaScript', color: '#F7DF1E' },
-  { icon: SiReact, name: 'ReactJS', color: '#61DAFB' },
   { icon: SiPhp, name: 'PHP', color: '#777BB4' },
   { icon: SiMysql, name: 'MySQL', color: '#4479A1' },
   { icon: SiTailwindcss, name: 'Tailwind CSS', color: '#06B6D4' },
@@ -37,9 +50,6 @@ const technologies = [
   { icon: SiAdobephotoshop, name: 'Photoshop', color: '#31A8FF' },
   { icon: SiCanva, name: 'Canva', color: '#00C4CC' },
   { icon: FiMonitor, name: 'Responsive Design', color: '#10B981' },
-  { icon: FiCode, name: 'ES6+', color: '#F59E0B' },
-  { icon: SiFigma, name: 'Figma', color: '#F24E1E' },        // Added
-  { icon: SiNextdotjs, name: 'Next.js', color: '#000000' },   // Added
 ];
 
 
@@ -83,7 +93,7 @@ const Skills = () => {
       <div className="section-container">
         <SectionHeading 
           title="Skills & Technologies" 
-          subtitle="My technical expertise and tools I work with"
+          subtitle="My MERN stack expertise and the tools I work with"
         />
         
         {/* Skill Bars */}
@@ -129,7 +139,7 @@ const Skills = () => {
           className="text-center mb-8"
         >
           <h3 className="text-2xl font-display font-bold gradient-text mb-2">Technologies I Use</h3>
-          <p className="text-muted-foreground">Tools and frameworks in my tech stack</p>
+          <p className="text-muted-foreground">Core MERN stack tools, frontend technologies, and design utilities</p>
         </motion.div>
         
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">

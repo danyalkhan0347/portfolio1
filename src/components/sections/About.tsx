@@ -10,8 +10,8 @@ const personalInfo = [
   { icon: FiPhone, label: 'Phone', value: '0370-5040330' },
   { icon: FiMail, label: 'Email', value: 'usmanalishah\n5040@gmail.com' },
   { icon: FiGlobe, label: 'Languages', value: 'Urdu, Pashto, English' },
-  { icon: FiHeart, label: 'Interests', value: 'Web Development, UI/UX' },
-  { icon: FiBriefcase, label: 'Experience', value: 'Web Developer' },
+  { icon: FiHeart, label: 'Interests', value: 'MERN Stack, UI/UX' },
+  { icon: FiBriefcase, label: 'Experience', value: 'MERN Stack Developer' },
 ];
 
 const containerVariants = {
@@ -78,14 +78,14 @@ const About = () => {
               <h3 className="text-2xl font-display font-bold mb-4 gradient-text">
                 Who I Am
               </h3>
-              <p className="text-muted-foreground mb-4 leading-relaxed">
-                I am a passionate Web Developer and ReactJS Specialist with a strong foundation in modern web technologies. Currently pursuing my Bachelor's degree in Computer Science from Bacha Khan University Charsadda.
+              <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
+                I am a passionate MERN Stack Developer and ReactJS Specialist with a strong foundation in modern web technologies. My Bachelor's degree in Computer Science at Bacha Khan University Charsadda is currently in progress for the 2024 - 2028 session.
               </p>
-              <p className="text-muted-foreground mb-4 leading-relaxed">
-                I specialize in building responsive, user-friendly web applications using ReactJS, Tailwind CSS, and JavaScript. I love turning complex problems into simple, beautiful, and intuitive designs.
+              <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
+                I specialize in building responsive, user-friendly web applications using MongoDB, Express.js, ReactJS, Node.js, Tailwind CSS, and JavaScript. I enjoy working across both frontend and backend to turn complex problems into simple, beautiful, and intuitive digital products.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                My goal is to create impactful digital experiences that make a difference. I'm always eager to learn new technologies and take on challenging projects that push my boundaries.
+              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
+                My goal is to create impactful full-stack digital experiences that make a difference. I'm always eager to learn new technologies, strengthen my MERN stack expertise, and take on challenging projects that push my boundaries.
               </p>
             </div>
           </motion.div>

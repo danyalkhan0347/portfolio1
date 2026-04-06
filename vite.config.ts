@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "lucide-react": path.resolve(__dirname, "./src/lib/lucide-react.tsx"),
     },
   },
 }));

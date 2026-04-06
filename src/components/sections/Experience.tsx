@@ -5,13 +5,13 @@ import { FiCheck, FiCode, FiLayers, FiSmartphone, FiZap, FiUsers } from 'react-i
 const experiences = [
   {
     icon: FiCode,
-    title: 'Frontend Development',
-    description: 'Building responsive and interactive user interfaces using ReactJS, JavaScript, and modern CSS frameworks.',
+    title: 'MERN Stack Development',
+    description: 'Building full-stack web applications using MongoDB, Express.js, ReactJS, and Node.js with clean and scalable architecture.',
   },
   {
     icon: FiLayers,
-    title: 'Component-Based Architecture',
-    description: 'Creating reusable, modular components for scalable and maintainable codebases.',
+    title: 'Frontend Architecture',
+    description: 'Creating reusable, modular React components and maintainable UI systems for scalable applications.',
   },
   {
     icon: FiSmartphone,
@@ -20,8 +20,8 @@ const experiences = [
   },
   {
     icon: FiZap,
-    title: 'Performance Optimization',
-    description: 'Implementing best practices for fast loading times and smooth animations.',
+    title: 'API & Performance Optimization',
+    description: 'Integrating REST APIs and applying best practices for fast loading times, efficient rendering, and smooth interactions.',
   },
   {
     icon: FiUsers,
@@ -31,7 +31,9 @@ const experiences = [
 ];
 
 const highlights = [
+  'Hands-on experience with the MERN stack for full-stack web application development',
   'Proficient in ReactJS ecosystem and modern JavaScript',
+  'Knowledge of Node.js, Express.js, and MongoDB fundamentals',
   'Strong understanding of UI/UX principles',
   'Experience with version control (Git/GitHub)',
   'Ability to translate designs into pixel-perfect code',
@@ -41,7 +43,7 @@ const highlights = [
   'Familiarity with RESTful APIs and integration',
   'Knowledge of modern CSS frameworks like Tailwind CSS and Bootstrap',
   'Hands-on experience with component libraries and design systems',
-  'Basic understanding of backend technologies and database integration',
+  'Experience connecting frontend applications with backend services and databases',
   'Ability to optimize applications for performance and scalability',
 ];
 

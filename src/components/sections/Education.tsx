@@ -7,8 +7,8 @@ const educationData = [
     degree: 'Bachelor of Science in Computer Science',
     institution: 'Bacha Khan University Charsadda',
     location: 'Charsadda, KPK',
-    period: '2024 - Present',
-    description: 'Currently pursuing BS in Computer Science with focus on Web Development and Software Engineering.',
+    period: '2024 - 2028',
+    description: 'BS in Computer Science is currently in progress with a focus on Web Development and Software Engineering.',
     status: 'In Progress',
   },
   {
@@ -32,7 +32,7 @@ const educationData = [
     degree: 'Hafiz Quran',
     institution: 'Jamia Masjid Ameer Maoya, Landai Shah',
     location: 'Landai Shah, Charsadda',
-    period: '2017 - 2019', // Adjust if needed
+    period: '2023', // Adjust if needed
     description: 'Memorized the entire Quran.',
     status: 'Completed',
   },
@@ -40,7 +40,7 @@ const educationData = [
     degree: 'Tajweed',
     institution: 'Taleem ul Quran, Sardheri',
     location: 'Sardheri, Charsadda',
-    period: '2019 - 2020', // Adjust if needed
+    period: '2024', // Adjust if needed
     description: 'Learned proper pronunciation and recitation rules of the Quran.',
     status: 'Completed',
   },

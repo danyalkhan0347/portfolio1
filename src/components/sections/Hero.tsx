@@ -49,11 +49,11 @@ const Hero = () => {
             >
               <TypeAnimation
                 sequence={[
-                  'Web Developer',
+                  'MERN Stack Developer',
+                  2000,
+                  'Full Stack Developer',
                   2000,
                   'ReactJS Specialist',
-                  2000,
-                  'Frontend Engineer',
                   2000,
                   
                 ]}
@@ -89,7 +89,9 @@ const Hero = () => {
                 Get In Touch
               </motion.a>
               <motion.a
-                href="#projects"
+                href="https://github.com/usmanali330"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 glass-card font-semibold rounded-xl gradient-border hover:glow-effect transition-all duration-500 flex items-center gap-2"
