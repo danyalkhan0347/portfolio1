@@ -3,14 +3,14 @@ Absolutely! Since your project is a **portfolio website**, here’s a profession
 ---
 
 ```markdown
-# Usman Ali Portfolio
+# Danyal Khan Portfolio
 
 Welcome to my personal portfolio website! This website showcases my skills, projects, and experience as a Front-End Developer.  
 
 ## 🌐 Live Demo
 
 You can view the live website here:  
-[https://usmanali330.github.io/newPortfolio/](https://usmanali330.github.io/newPortfolio/)
+[https://danyalkhan.github.io/newPortfolio/](https://danyalkhan.github.io/newPortfolio/)
 
 ---
 
@@ -58,7 +58,7 @@ usman-s-digital-canvas-main/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/usmanali330/newPortfolio.git
+git clone https://github.com/danyalkhan/newPortfolio.git
 ````
 
 2. Navigate to the project folder:
@@ -85,9 +85,9 @@ npm run dev
 
 ## 🔗 Contact Me
 
-* **Email:** [usmanali@example.com](mailto:usmanali@example.com)
-* **LinkedIn:** [linkedin.com/in/usmanali](https://www.linkedin.com/in/usmanali)
-* **GitHub:** [github.com/usmanali330](https://github.com/usmanali330)
+* **Email:** [danyalkhan034787@gmail.com](mailto:danyalkhan034787@gmail.com)
+* **LinkedIn:** [linkedin.com/in/danyalkhan](https://www.linkedin.com/in/danyalkhan)
+* **GitHub:** [github.com/danyalkhan](https://github.com/danyalkhan)
 
 ---
 

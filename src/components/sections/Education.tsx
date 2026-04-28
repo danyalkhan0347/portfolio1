@@ -12,36 +12,19 @@ const educationData = [
     status: 'In Progress',
   },
   {
-    degree: 'Intermediate in Pre-Computer Science (FSc)',
-    institution: 'GHSS NO 01 Charsadda',
-    location: 'Charsadda, KPK',
+    degree: 'Intermediate in Pre-engineering  (FSc)',
+    institution: ' HIMS Degree College',
+    location: 'peshawar, KPK',
     period: '2022 - 2024',
-    description: 'Completed intermediate education with Pre-Computer Science subjects including Physics, and Mathematics.',
+    description: 'Completed intermediate education with  Pre-engineering subjects including Physics, and Mathematics.',
     status: 'Completed',
   },
   {
     degree: 'Secondary School Certificate (Matric)',
-    institution: 'Govt. High School Shakar Dhand',
-    location: 'Sardheri, Charsadda',
+    institution: 'Muslim Public School & College',
+    location: ' Charsadda',
     period: '2020 - 2022',
     description: 'Completed secondary education with Science subjects.',
-    status: 'Completed',
-  },
-
-  {
-    degree: 'Hafiz Quran',
-    institution: 'Jamia Masjid Ameer Maoya, Landai Shah',
-    location: 'Landai Shah, Charsadda',
-    period: '2023', // Adjust if needed
-    description: 'Memorized the entire Quran.',
-    status: 'Completed',
-  },
-  {
-    degree: 'Tajweed',
-    institution: 'Taleem ul Quran, Sardheri',
-    location: 'Sardheri, Charsadda',
-    period: '2024', // Adjust if needed
-    description: 'Learned proper pronunciation and recitation rules of the Quran.',
     status: 'Completed',
   },
 

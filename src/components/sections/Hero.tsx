@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
-import profileImage from '@/assets/profile-1.jpg';
+import profileImage from '@/assets/jpg.jpg';
 
 const socialLinks = [
-  { icon: FiGithub, href: 'https://github.com/usmanali330', label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/usman-ali-655600344/', label: 'LinkedIn' },
-  { icon: FiMail, href: 'mailto:usmanalishah5040@gmail.com', label: 'Email' },
-  { icon: FaWhatsapp, href: 'https://wa.me/923705040330', label: 'WhatsApp' },
+  { icon: FiGithub, href: 'https://github.com/danyalkhan0347', label: 'GitHub' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/danyal-khan-741a17405/', label: 'LinkedIn' },
+  { icon: FiMail, href: 'mailto:danyalkhan034787@gmail.com', label: 'Email' },
+  { icon: FaWhatsapp, href: 'https://wa.me/923478763428', label: 'WhatsApp' },
 ];
 
 const Hero = () => {
@@ -38,7 +38,7 @@ const Hero = () => {
               transition={{ delay: 0.3 }}
               className="heading-primary mb-4"
             >
-              <span className="gradient-text text-shadow-glow">Usman Ali</span>
+<span className="gradient-text text-shadow-glow">Danyal Khan</span>
             </motion.h1>
             
             <motion.div
@@ -89,7 +89,7 @@ const Hero = () => {
                 Get In Touch
               </motion.a>
               <motion.a
-                href="https://github.com/usmanali330"
+                href="https://github.com/danyalkhan0347"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -97,16 +97,6 @@ const Hero = () => {
                 className="px-8 py-4 glass-card font-semibold rounded-xl gradient-border hover:glow-effect transition-all duration-500 flex items-center gap-2"
               >
                 View Projects
-              </motion.a>
-              <motion.a
-                href="/resume.pdf"
-                download
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 glass-card font-semibold rounded-xl hover:glow-effect transition-all duration-500 flex items-center gap-2 text-primary"
-              >
-                <FiDownload className="w-5 h-5" />
-                Download CV
               </motion.a>
             </motion.div>
             
@@ -144,7 +134,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative order-1 lg:order-2 flex justify-center"
           >
-            <div className="relative">
+            <div className="relative mt-[3px]">
               {/* Glow Ring */}
               <motion.div
                 animate={{ 
@@ -162,11 +152,11 @@ const Hero = () => {
               <motion.div
                 animate={{ y: [-10, 10, -10] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden glass-card p-2"
+                className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden glass-card p-2"
               >
                 <img 
                   src={profileImage} 
-                  alt="Usman Ali" 
+alt="Danyal Khan"
                   className="w-full h-full rounded-full object-cover"
                 />
               </motion.div>

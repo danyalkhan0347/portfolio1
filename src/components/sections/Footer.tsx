@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiHeart } from 'react-icons/fi';
 
 const socialLinks = [
-  { icon: FiGithub, href: 'https://github.com/usmanali330', label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/usman-ali-655600344/', label: 'LinkedIn' },
-  { icon: FiMail, href: 'mailto:usmanalishah5040@gmail.com', label: 'Email' },
+  { icon: FiGithub, href: 'https://github.com/danyalkhan0347', label: 'GitHub' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/danyal-khan-741a17405/', label: 'LinkedIn' },
+  { icon: FiMail, href: 'mailto:danyalkhan034787@gmail.com', label: 'Email' },
 ];
 
 const Footer = () => {
@@ -22,10 +22,10 @@ const Footer = () => {
             className="text-center md:text-left"
           >
             <a href="#home" className="font-display text-2xl font-bold gradient-text mb-2 block">
-              UA
+DK
             </a>
             <p className="text-sm text-muted-foreground flex items-center gap-1 justify-center md:justify-start">
-              © {currentYear} Usman Ali. Built with{' '}
+© {currentYear} Danyal Khan.
               <motion.span
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 1, repeat: Infinity }}

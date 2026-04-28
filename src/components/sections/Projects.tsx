@@ -131,7 +131,7 @@ const Projects = () => {
           className="text-center"
         >
           <motion.a
-            href="https://github.com/usmanali330"
+            href="https://github.com/danyalkhan0347"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

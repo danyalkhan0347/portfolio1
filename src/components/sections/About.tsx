@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 import SectionHeading from '../SectionHeading';
 import { FiUser, FiMapPin, FiPhone, FiMail, FiGlobe, FiCalendar, FiHeart, FiBriefcase } from 'react-icons/fi';
-import profileImage from '@/assets/profile-2.jpg';
+import profileImage from '@/assets/kk.png';
 
 const personalInfo = [
-  { icon: FiUser, label: 'Name', value: 'Usman Ali' },
+  { icon: FiUser, label: 'Name', value: 'Danyal Khan' },
   { icon: FiCalendar, label: 'Date of Birth', value: '5 April 2003' },
   { icon: FiMapPin, label: 'Location', value: 'Sardheri, Charsadda, KPK' },
-  { icon: FiPhone, label: 'Phone', value: '0370-5040330' },
-  { icon: FiMail, label: 'Email', value: 'usmanalishah\n5040@gmail.com' },
+  { icon: FiPhone, label: 'Phone', value: '0347-8763428' },
+  { icon: FiMail, label: 'Email', value: 'danyalkhan034787@gmail.com' },
   { icon: FiGlobe, label: 'Languages', value: 'Urdu, Pashto, English' },
   { icon: FiHeart, label: 'Interests', value: 'MERN Stack, UI/UX' },
   { icon: FiBriefcase, label: 'Experience', value: 'MERN Stack Developer' },
@@ -59,7 +59,7 @@ const About = () => {
               >
                 <img 
                   src={profileImage} 
-                  alt="Usman Ali" 
+alt="Danyal Khan"
                   className="w-full h-full rounded-xl object-cover object-top"
                 />
               </motion.div>
@@ -79,7 +79,7 @@ const About = () => {
                 Who I Am
               </h3>
               <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
-                I am a passionate MERN Stack Developer and ReactJS Specialist with a strong foundation in modern web technologies. My Bachelor's degree in Computer Science at Bacha Khan University Charsadda is currently in progress for the 2024 - 2028 session.
+My Bachelor's degree in Computer Science at Bacha Khan University Charsadda is currently in progress for the 2024 - 2028 session.
               </p>
               <p className="text-muted-foreground mb-4 leading-relaxed text-sm sm:text-base">
                 I specialize in building responsive, user-friendly web applications using MongoDB, Express.js, ReactJS, Node.js, Tailwind CSS, and JavaScript. I enjoy working across both frontend and backend to turn complex problems into simple, beautiful, and intuitive digital products.
@@ -110,7 +110,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">{info.label}</p>
-                  <p className="text-sm font-medium text-foreground leading-tight">{info.value}</p>
+                  <p className="text-sm font-medium text-foreground leading-tight break-all">{info.value}</p>
                 </div>
               </motion.div>
             ))}
@@ -122,3 +122,4 @@ const About = () => {
 };
 
 export default About;
+

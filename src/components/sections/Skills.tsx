@@ -12,11 +12,7 @@ import {
 import { TbFileSpreadsheet } from 'react-icons/tb';
 import { VscCode } from 'react-icons/vsc';
 import { FiMonitor } from 'react-icons/fi';
-import {
-  containerVariants,
-  itemVariants,
-  scrollSlideInUpVariants,
-} from '@/lib/animations';
+
 
 const skills = [
   { name: 'MongoDB', percentage: 75, color: 'from-green-500 to-emerald-600' },
